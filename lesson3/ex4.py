@@ -22,3 +22,55 @@
 #    - False
 
 # INSERT CODE HERE
+shopping_list = ['rice', 'eggs', 'lemons', 'sugar', 'potato']
+
+a.
+
+def in_list(item, shopping_list):
+    if item in shopping_list:
+        return f"'{item}' is in the shopping list."
+    else:
+        return f"'{item}' not in the shopping list."
+
+shopping_list = ['rice', 'eggs', 'lemons', 'sugar', 'potato']
+item_to_check = 'apples'
+
+result = in_list(item_to_check, shopping_list)
+print(result)
+
+b.
+def in_list(item, shopping_list):
+    if item in shopping_list:
+        return "'{}' is in the shopping list.".format(item)
+    else:
+        return "'{}' not in the shopping list.".format(item)
+
+shopping_list = ['rice', 'eggs', 'lemons', 'sugar', 'potato']
+item_to_check = 'apples'
+
+result = in_list(item_to_check, shopping_list)
+print(result)
+
+c.
+
+def in_list(item, shopping_list):
+    if item in shopping_list:
+        return "'{}' is in the shopping list.".format(item)
+    else:
+        return "'{}' not in the shopping list.".format(item)
+
+def print_formatted_list(lst):
+    formatted = "My shopping list: {}".format(lst)
+    print(formatted)
+
+shopping_list = ['rice', 'eggs', 'lemons', 'sugar', 'potato']
+item_to_check = 'apples'
+
+result = in_list(item_to_check, shopping_list)
+print(result)
+
+print_formatted_list(shopping_list)
+
+d.
+
+

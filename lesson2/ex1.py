@@ -3,7 +3,9 @@
 """
 
 # 1. Create a format string to display the name and age of a person.
-
+Name: str = "Ali Baba"
+Age: int = 40
+print("{} dealt with {} thieves.".format(Name, Age))
 # INSERT YOUR CODE HERE
 
 # 2. Print version with it's corresponding upstream codename,

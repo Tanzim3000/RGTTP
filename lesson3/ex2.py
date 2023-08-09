@@ -8,11 +8,22 @@
 
 # INSERT CODE HERE
 
+numbers = [i for i in range(10)]
+print(numbers)
+
 # 2. Create a list of number from 0 to 9 the power of 2 using a for loop.
 #
 # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 
 # INSERT CODE HERE
+
+power_of_2_list = []
+
+for i in range(10):
+    power_of_2 = i ** 2
+    power_of_2_list.append(power_of_2)
+
+print(power_of_2_list)
 
 # 3. Create a list of lists, which contains elements that are
 # number, number(to the power of 2), number(to the power of 3)
