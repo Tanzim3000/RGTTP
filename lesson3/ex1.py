@@ -71,3 +71,9 @@ print("Index of chocolate:",chocolate_index)
 shopping_list = ['apples', 'milk', 'carrot', 'pasta', 'banana', 'chocolate', 'carrot', 'avocado']
 carrot_index = shopping_list.index('carrot')
 print("Index of carrot:", carrot_index)
+
+
+name: str = "Ford Prefect"
+name = 100
+
+
